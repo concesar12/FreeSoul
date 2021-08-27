@@ -18,7 +18,7 @@ class TabNav extends React.Component {
                 <div className="top-bar topBar">
                     <div className="container">
                         <div className="col-12">
-                            <p>
+                            <p className="text-white">
                                 Envíos a toda Colombia
                                 <a className="topLink" href="tel:+64225946488"><FaWhatsapp/> Contáctanos</a>
                                 <a className="topLink" href="https://envia.co/" target="_blank" rel="noreferrer"><FaTruck/> Sigue tu pedido</a>
@@ -26,27 +26,25 @@ class TabNav extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div className="tabcss">
-                    <center>
-                        <img
-                            className="logo"
-                            src={Logo}
-                            alt="FreeSoul-Logo"
-                        />
-                        <IconContext.Provider value={{style: {width:'60px', height:'70px', color:"#4d6ab2"}}}> 
-                            <span className="icon1"><FaShoppingBag/></span> 
-                        </IconContext.Provider>
-                        
-                        <IconContext.Provider value={{style: {width:'60px', height:'70px', color:"#4d6ab2"}}}> 
-                            <span className="icon2"><FaRegEnvelopeOpen/> </span> 
-                        </IconContext.Provider> 
-                    </center>
+                <div className="tabcss mx-auto d-block">
 
-                      
+                    <img
+                        className="logo"
+                        src={Logo}
+                        alt="FreeSoul-Logo"
+                    />
+
+                    <IconContext.Provider value={{style: {width:'60px', height:'70px', color:"#4d6ab2"}}}> 
+                        <span className="icon1"><FaShoppingBag/></span> 
+                    </IconContext.Provider>
+                    
+                    <IconContext.Provider value={{style: {width:'60px', height:'70px', color:"#4d6ab2"}}}> 
+                        <span className="icon2"><FaRegEnvelopeOpen/> </span> 
+                    </IconContext.Provider>    
                 </div>
                     
                 <div>
-                    <ul className="nav nav-tabs justify-content-center tabcss">
+                    <ul className="nav nav-tabs justify-content-center tabcss pt-2">
                         {
                             this.props.tabs.map(tab => {
                                 const active =(tab === this.props.selected ? 'active' : '');

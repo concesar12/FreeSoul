@@ -4,7 +4,7 @@ import Slider from './Components/Slider/Slider';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import TabNav from './Components/Navbar/TabNav';
 import Tab from './Components/Navbar/Tab';
-
+import Footer from './Components/Footer/Footer';
 
 class App extends React.Component {
   constructor(props) {
@@ -36,7 +36,7 @@ class App extends React.Component {
               
               </div>
             </div>
-          
+            <Footer/>
           </Tab>
           <Tab isSelected={this.state.selected === 'Camisetas'}>
             <p>Camisetas</p>
