@@ -5,8 +5,12 @@
 }
 
 body {
-  font-family: Open sans, sans-serif;
-  height: 100vh;
   background: #f1f1f1;
-  overflow: hidden;
+  overflow-x: hidden;
+}
+
+.topMessage{
+  text-align: center;
+  font-size: 40px;
+  color: rosybrown;
 }

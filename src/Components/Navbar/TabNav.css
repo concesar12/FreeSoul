@@ -1,0 +1,29 @@
+.tabcss{
+    background-color: #bae0e3;
+}
+
+.nav-link {
+    color: #4d6ab2;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: m
+}
+
+.active{
+    color: #4d6ab2;
+    text-decoration: underline;
+}
+
+.topBar{
+    background-color: #32b4ae;
+    color: #ffffff;
+    height: 27px;
+}
+
+.topLink{
+    color: #ffffff;
+    text-decoration: none;
+    float: right;
+    margin-left: 30px;
+}
