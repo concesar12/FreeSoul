@@ -11,6 +11,21 @@ body {
 
 .topMessage{
   text-align: center;
-  font-size: 40px;
-  color: rosybrown;
+  font-size: 70px;
+  color: #ec667f;
+  font-family: Mermaid;
+  font-weight: bold;
+  width: 50%;
+  margin: auto 25% auto 25%;
 }
+
+.bChurrusco{
+  background-image: url("../src/FreesoulDocs/Churrusco\ Home.png");
+}
+
+@font-face{
+  font-family: Mermaid;
+  src: url("../src/FreesoulDocs/tipografias/Mermaid1001.ttf") format("opentype");
+}
+
+

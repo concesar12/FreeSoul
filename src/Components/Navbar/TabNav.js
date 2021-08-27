@@ -4,6 +4,11 @@ import './TabNav.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {FaWhatsapp} from 'react-icons/fa';
 import {FaTruck} from 'react-icons/fa';
+import Logo from '../../FreesoulDocs/FreeSoulLogoweb-01.png';
+import {IconContext} from "react-icons"
+import {FaShoppingBag} from 'react-icons/fa'
+import {FaRegEnvelopeOpen} from 'react-icons/fa'
+
 
 class TabNav extends React.Component {
 
@@ -21,7 +26,25 @@ class TabNav extends React.Component {
                         </div>
                     </div>
                 </div>
+                <div className="tabcss">
+                    <center>
+                        <img
+                            className="logo"
+                            src={Logo}
+                            alt="FreeSoul-Logo"
+                        />
+                        <IconContext.Provider value={{style: {width:'60px', height:'70px', color:"#4d6ab2"}}}> 
+                            <span className="icon1"><FaShoppingBag/></span> 
+                        </IconContext.Provider>
+                        
+                        <IconContext.Provider value={{style: {width:'60px', height:'70px', color:"#4d6ab2"}}}> 
+                            <span className="icon2"><FaRegEnvelopeOpen/> </span> 
+                        </IconContext.Provider> 
+                    </center>
 
+                      
+                </div>
+                    
                 <div>
                     <ul className="nav nav-tabs justify-content-center tabcss">
                         {
