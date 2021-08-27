@@ -23,7 +23,7 @@
 .topBar{
     background-color: #32b4ae;
     color: #ffffff;
-    height: 27px;
+    height: 30px;
 }
 
 .topLink{
@@ -34,17 +34,27 @@
 }
 
 .logo{
-    height: 230px;
+    padding: 0%;
+    margin-top: 0%;
+    margin-left: 32%;
+    margin-right: 32%;
+    width: 36%;
+    height: auto;
 }
 
 .icon1{
     position: absolute;
-    top: 15%;
+    bottom: 80%;
     left: 83%;
+    height: 55px;
+    cursor: pointer;
 }
 
 .icon2{
     position: absolute;
-    top: 15%;
+    bottom: 80%;
     left: 90%;
+    height: 50px;
+    cursor: pointer;
 }
+

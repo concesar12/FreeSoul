@@ -4,7 +4,7 @@ import './Footer.css';
 import {IconContext} from "react-icons"
 import {FaWhatsapp} from 'react-icons/fa';
 import {FaInstagram} from 'react-icons/fa';
-import {FaFacebook} from 'react-icons/fa';
+import {AiOutlineFacebook} from 'react-icons/ai';
 
 export default function Footer(){
     return(
@@ -16,9 +16,9 @@ export default function Footer(){
                             <h2>Nosotras</h2>
                             <p> Lorem bla bla blaLorem bla bla blaLorem bla bla blaLorem bla bla blaLorem bla bla blaLorem bla bla blaLorem bla bla bla</p>
                             <p className="bold">Leer más</p>
-                            <IconContext.Provider value={{style: {margin:'10px', width:'40px', height:'40px', color:"#4d6ab2"}}}>
+                            <IconContext.Provider value={{style: {margin:'10px', width:'50px', height:'auto', color:"#4d6ab2"}}}>
                                 <FaInstagram/>
-                                <FaFacebook/>
+                                <AiOutlineFacebook/>
                                 <FaWhatsapp/>
                             </IconContext.Provider>
 
