@@ -9,7 +9,7 @@ body {
   overflow-x: hidden;
 }
 
-.topMessage{
+.titleMsg{
   text-align: center;
   font-size: 70px;
   color: #ec667f;
@@ -17,10 +17,6 @@ body {
   font-weight: bold;
   width: 50%;
   margin: auto 25% auto 25%;
-}
-
-.bChurrusco{
-  background-image: url("../src/FreesoulDocs/Churrusco\ Home.png");
 }
 
 @font-face{

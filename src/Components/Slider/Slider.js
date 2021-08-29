@@ -30,7 +30,7 @@ export default function Slider() {
     }
 
     return (
-        <div className="container-slider">
+        <div className="container-slider"> 
             {dataSlider.map((obj, index) => {
                 return (
                     <div
@@ -39,7 +39,7 @@ export default function Slider() {
                     >
                         <img 
                         src={process.env.PUBLIC_URL + `/Imgs/img${index + 1}.jpg`}
-                        alt=""
+                        alt={`img${index + 1}`}
                         />
                     </div>
                 )

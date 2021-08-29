@@ -14,7 +14,7 @@ export default function Footer(){
                     <div className="row">
                         <div className="col-4 column">
                             <h2>Nosotras</h2>
-                            <p> Lorem bla bla blaLorem bla bla blaLorem bla bla blaLorem bla bla blaLorem bla bla blaLorem bla bla blaLorem bla bla bla</p>
+                            <p className="text-justify"> Lorem bla bla blaLorem bla bla blaLorem bla bla blaLorem bla bla blaLorem bla bla blaLorem bla bla blaLorem bla bla bla</p>
                             <p className="bold">Leer más</p>
                             <IconContext.Provider value={{style: {margin:'10px', width:'50px', height:'auto', color:"#4d6ab2"}}}>
                                 <FaInstagram/>
@@ -23,7 +23,7 @@ export default function Footer(){
                             </IconContext.Provider>
 
                         </div>
-                        <div className="col-4 column">
+                        <div className="col-4 column text-left">
                             <h2>Ayuda</h2>
                             <ul>
                                 <button className="btnPopUp" >Buscar</button><br/>
