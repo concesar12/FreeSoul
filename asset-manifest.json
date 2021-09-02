@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/FreeSoul/static/css/main.c7b10091.chunk.css",
+    "main.js": "/FreeSoul/static/js/main.be907ce0.chunk.js",
+    "main.js.map": "/FreeSoul/static/js/main.be907ce0.chunk.js.map",
+    "runtime-main.js": "/FreeSoul/static/js/runtime-main.69a120d8.js",
+    "runtime-main.js.map": "/FreeSoul/static/js/runtime-main.69a120d8.js.map",
+    "static/css/2.a7397990.chunk.css": "/FreeSoul/static/css/2.a7397990.chunk.css",
+    "static/js/2.b658a03a.chunk.js": "/FreeSoul/static/js/2.b658a03a.chunk.js",
+    "static/js/2.b658a03a.chunk.js.map": "/FreeSoul/static/js/2.b658a03a.chunk.js.map",
+    "index.html": "/FreeSoul/index.html",
+    "static/css/2.a7397990.chunk.css.map": "/FreeSoul/static/css/2.a7397990.chunk.css.map",
+    "static/css/main.c7b10091.chunk.css.map": "/FreeSoul/static/css/main.c7b10091.chunk.css.map",
+    "static/js/2.b658a03a.chunk.js.LICENSE.txt": "/FreeSoul/static/js/2.b658a03a.chunk.js.LICENSE.txt",
+    "static/media/HomeBody.css": "/FreeSoul/static/media/ChurruscoHome.a9f8ccb6.png",
+    "static/media/DAV_4815-1.d82d2214.jpg": "/FreeSoul/static/media/DAV_4815-1.d82d2214.jpg",
+    "static/media/DAV_5111.713f138b.jpg": "/FreeSoul/static/media/DAV_5111.713f138b.jpg",
+    "static/media/FreeSoulLogoweb-01.af5aaf38.png": "/FreeSoul/static/media/FreeSoulLogoweb-01.af5aaf38.png",
+    "static/media/IMG_7295.7b808562.jpg": "/FreeSoul/static/media/IMG_7295.7b808562.jpg",
+    "static/media/Footer.css": "/FreeSoul/static/media/MyriadPro-Regular.f9d20e61.otf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69a120d8.js",
+    "static/css/2.a7397990.chunk.css",
+    "static/js/2.b658a03a.chunk.js",
+    "static/css/main.c7b10091.chunk.css",
+    "static/js/main.be907ce0.chunk.js"
+  ]
+}
